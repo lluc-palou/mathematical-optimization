@@ -7,27 +7,27 @@ Times (seconds):
 Input =  0
 Solve =  0
 Output = 0
-CPLEX 20.1.0.0: optimal solution; objective 17.61462738
-23 separable QP barrier iterations
+CPLEX 20.1.0.0: optimal solution; objective 396.798344
+18 separable QP barrier iterations
 No basis.
 --------------------SVM Classifier Dual--------------------
 CPLEX 20.1.0.0: timing=1
 
 Times (seconds):
-Input =  0.109375
-Solve =  0.015625
+Input =  0.078125
+Solve =  0
 Output = 0
-CPLEX 20.1.0.0: optimal solution; objective -17.61462729
-23 QP barrier iterations
+CPLEX 20.1.0.0: optimal solution; objective -396.7983433
+17 QP barrier iterations
 No basis.
 --------------------SVM Classifier using Gaussian kernel--------------------
 CPLEX 20.1.0.0: timing=1
 
 Times (seconds):
-Input =  0.078125
-Solve =  0.125
+Input =  0.15625
+Solve =  0.078125
 Output = 0
-CPLEX 20.1.0.0: optimal solution; objective -102.8084729
+CPLEX 20.1.0.0: optimal solution; objective -88.72429428
 12 QP barrier iterations
 No basis.
-ampl:
+ampl: 
