@@ -1,0 +1,33 @@
+ampl: reset;
+ampl: include 'C:\Users\llucp\Desktop\Pràctica II\Part 3 (amb kernel gaussià)\svm_classifier.run';
+--------------------SVM Classifier Primal--------------------
+CPLEX 20.1.0.0: timing=1
+
+Times (seconds):
+Input =  0
+Solve =  0
+Output = 0
+CPLEX 20.1.0.0: optimal solution; objective 17.61462738
+23 separable QP barrier iterations
+No basis.
+--------------------SVM Classifier Dual--------------------
+CPLEX 20.1.0.0: timing=1
+
+Times (seconds):
+Input =  0.109375
+Solve =  0.015625
+Output = 0
+CPLEX 20.1.0.0: optimal solution; objective -17.61462729
+23 QP barrier iterations
+No basis.
+--------------------SVM Classifier using Gaussian kernel--------------------
+CPLEX 20.1.0.0: timing=1
+
+Times (seconds):
+Input =  0.078125
+Solve =  0.125
+Output = 0
+CPLEX 20.1.0.0: optimal solution; objective -102.8084729
+12 QP barrier iterations
+No basis.
+ampl:

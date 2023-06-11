@@ -20,8 +20,8 @@ var gamma;   # Intercept.
 var s{1..m}; # Slack.
 
 # Loads the training data.
-data linearly_nonseparable_data_train.dat;
-data linearly_nonseparable_data_test.dat;
+data train.dat;
+data test.dat;
 
 # Sets the solver algorithm used to handle the optimization proble.
 option solver cplex;
@@ -73,8 +73,8 @@ param y_test {1..m};
 var lambda{1..m} >= 0, <= nu;
 
 # Loads the training data.
-data linearly_nonseparable_data_train.dat;
-data linearly_nonseparable_data_test.dat;
+data train.dat;
+data test.dat;
 
 # Dual optimization problem for the (SVM) classifier.
 model svm_classifier_dual.mod;
@@ -116,6 +116,7 @@ display (accurracy / m) * 100 > results_dual.txt;
 
 display lambda > results_dual.txt;
 
+reset;
 print "--------------------SVM Classifier using Gaussian kernel--------------------";
 
 # General parameters.
@@ -135,8 +136,8 @@ param y_test {1..m};
 var lambda{1..m} >= 0, <= nu;
 
 # Loads the training data.
-data linearly_nonseparable_data_train.dat;
-data linearly_nonseparable_data_test.dat;
+data train.dat;
+data test.dat;
 
 # Dual optimization problem for the (SVM) classifier.
 model Gaussian_kernel.mod;

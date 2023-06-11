@@ -1,0 +1,22 @@
+ampl: include 'C:\Users\llucp\Desktop\Pràctica II\Part 2 (amb dades reals)\svm_classifier.run';
+--------------------SVM Classifier Primal--------------------
+CPLEX 20.1.0.0: timing=1
+
+Times (seconds):
+Input =  0
+Solve =  0.03125
+Output = 0
+CPLEX 20.1.0.0: optimal solution; objective 270.1854038
+22 separable QP barrier iterations
+No basis.
+--------------------SVM Classifier Dual--------------------
+CPLEX 20.1.0.0: timing=1
+
+Times (seconds):
+Input =  0.203125
+Solve =  0.078125
+Output = 0
+CPLEX 20.1.0.0: optimal solution; objective -270.185403
+19 QP barrier iterations
+No basis.
+ampl: 
